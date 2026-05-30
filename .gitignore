@@ -1,0 +1,72 @@
+# ==========================================
+# Caches e arquivos temporários do Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Jupyter Notebook (Muito importante para Ciência de Dados)
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Se não quiserem subir arquivos temporários salvos automaticamente pelo Jupyter:
+~*.ipynb
+
+# ==========================================
+# Ambientes Virtuais (NUNCA subam a pasta do ambiente)
+# ==========================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Configurações de IDEs (VS Code, PyCharm, etc.)
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# Arquivos de Sistema (Evita poluição visual)
+# ==========================================
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# ==========================================
+# Dados e Modelos Pesados (Opcional, mas recomendado)
+# ==========================================
+# Se o dataset de treino ou os modelos salvos (.pkl, .joblib) 
+# forem muito grandes, é melhor mantê-los apenas localmente:
+# data/raw/*.csv
+# *.pkl
+# *.joblib
