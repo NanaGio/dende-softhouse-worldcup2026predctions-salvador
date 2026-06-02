@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # Aqui nós carregamos o CSV original, apenas para resgatar a coluna de nome dos times, que foi descartada no treino do modelo.
     df_test_original = pd.read_csv(test_original_path)
 
-    #Retornando as coluanas retiradas
+    #Retornando as colunas retiradas
     missing_cols = set(X_train.columns) - set(df_test_features.columns)
     for c in missing_cols:
         df_test_features[c] = 0
