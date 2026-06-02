@@ -18,6 +18,5 @@ X_scaled = scaler.fit_transform(X)
 
 df2.to_csv('../data/test_clean.csv', index=False)
 
-#test cleaning
 
 
